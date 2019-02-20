@@ -254,7 +254,7 @@ if (message.content.startsWith("!!say")) {//SAY
     message.delete()
     var embed = new Discord.RichEmbed()
   .setColor("#FF7F50")  
-  .setDescription(message.content.slice("!!membed ".length))
+  .setDescription(message.content.slice("!!embed ".length))
     message.channel.send({embed});
   }; 
 
