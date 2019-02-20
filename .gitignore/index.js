@@ -215,7 +215,7 @@ if(message.content === "!!annonce"){//ANNONCE CONCOURS
   .setTitle("Rappel des concours !")
   .setColor('RANDOM')
   .setFooter(message.author.username)
-  .addField("**<@&515810929653317632> , <@&480023029959884831> Les concours ont été renouvelés !**", "*N'oubliez pas d'aller voter !*")
+  .setDescription("**<@&515810929653317632> , <@&480023029959884831> Les concours ont été renouvelés !**, *N'oubliez pas d'aller voter !*")
   chananonce.sendEmbed(emmbedan)
 }}
 
